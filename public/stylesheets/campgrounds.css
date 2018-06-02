@@ -1,0 +1,26 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 70px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newForm {
+    width: 30%;
+    margin: 25px auto 0 auto;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.delete-form {
+    display: inline;
+}
