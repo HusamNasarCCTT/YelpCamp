@@ -1,43 +1,43 @@
-<!-- #YelpCamp
+#YelpCamp
 
 * Add Landing Page
 * Add Caompgrounds Page that lists all campgrounds.
 
 Each Campground has:
 * Name
-* Image -->
+* Image
 
-<!-- #Layout and Basic Styling:
+#Layout and Basic Styling:
 * Create Header and Footer partials.
-* Add in Bootstrap -->
+* Add in Bootstrap
 
-<!-- #Creating new campgrounds
+#Creating new campgrounds
 * Setup new campground POST route
 * Add in body-parser
 * Setup route to show form
-* Add basic unstyled form -->
+* Add basic unstyled form
 
-<!-- #Style the campgrounds page
+#Style the campgrounds page
 * Add a better header/title
 * Make Campgrounds display in a grid.
 
 #Style the Navbar and Form
 * Add a navbar to all templates
-* Style the new campground form -->
+* Style the new campground form
 
-<!-- ##v2 features:
+##v2 features:
 # Add Mongoose
 * Install and configure Mongoose
 * Setup Campground model
-* Use campground model inside of routes. -->
+* Use campground model inside of routes.
 
-<!-- #Show Page
+#Show Page
 * Review the RESTful routes
 * Add decription to campground model
 * Show db.collection.drop()
-* Add a show route/template -->
+* Add a show route/template
 
-<!-- #Refactor Mongoose Code
+#Refactor Mongoose Code
 * Create models directory
 * Use module.exports
 * 'require' everything correctly
@@ -48,14 +48,14 @@ Each Campground has:
 
 #Add the Comment Model
 * Debug errors.
-* Display Comments on campgrounds show page -->
+* Display Comments on campgrounds show page
 
-<!-- #Comment New/Create
+#Comment New/Create
 * Nested Routes
 * Add the 'comment' new and create routes
-* Add the new comment form -->
+* Add the new comment form
 
-<!-- #Style Show Page
+#Style Show Page
 * Add sidebar to show page
 * Display comments nicely
 
@@ -70,9 +70,9 @@ Each Campground has:
 
 #Auth - Login
 * Add login routes
-* Add login template -->
+* Add login template
 
-<!-- #Auth - Logout/Navbar
+#Auth - Logout/Navbar
 * Add logout route
 * Prevent user from adding comment if not logged in
 * Add links to navbar
@@ -83,13 +83,13 @@ Each Campground has:
 
 #Users + Comments
 * Associate users and comments
-* Save author's name to a comment automatically -->
+* Save author's name to a comment automatically
 
-<!-- #Users + campgrounds
+#Users + campgrounds
 * Prevent an unauthenticated user from creating a campground
-* Save username + id to newly created campground -->
+* Save username + id to newly created campground
 
-<!-- # Editing Campgrounds
+# Editing Campgrounds
 * Add Method-Override
 * Add Edit Route for Campgrounds
 * Add Link to Edit Page
@@ -102,17 +102,17 @@ Each Campground has:
 #Authorization Part 1: Campgrounds
 * User can only edit his/her campgrounds
 * User can only delete his/her campgrounds
-* Hide/Show edit and delete buttons -->
+* Hide/Show edit and delete buttons
 
-<!-- #Editing Comments
+#Editing Comments
 * Add Edit route for comments
 * Add Edit button
-* Add Update route -->
+* Add Update route
 
-<!--Campground Edit Route: /campgrounds/:id/edit-->
-<!--Comment Edit Route:   /campgrounds/:id/comments/:comment_id/edit-->
+<!-- Campground Edit Route: /campgrounds/:id/edit -->
+<!-- Comment Edit Route:   /campgrounds/:id/comments/:comment_id/edit -->
 
-<!-- #Deleting Comments
+#Deleting Comments
 * Add Destroy route
 * Add Delete button
 
@@ -123,10 +123,10 @@ Comment Destroy Route:    /campgrounds/:id/comments/:comment_id
 * User can only edit his/her comments
 * User can only delete his/her comments
 * Hide/show edit and delete buttons
-* Refactor Middleware -->
+* Refactor Middleware
 
-<!-- #Adding in flash
+#Adding in flash
 * Install and configure connect-flash
-* Add Bootstrap alerts to header -->
+* Add Bootstrap alerts to header
 
-<!-- #Style Landing page -->
+#Style Landing page
